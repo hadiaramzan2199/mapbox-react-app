@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b6d81ba.css",
+    "main.js": "/static/js/main.3269205d.js",
+    "static/js/592.b5895e45.chunk.js": "/static/js/592.b5895e45.chunk.js",
+    "static/media/schools.png": "/static/media/schools.f6b171f2301f32c1edb8.png",
+    "static/media/landmarks.png": "/static/media/landmarks.87ac3a68f8629e7ff515.png",
+    "static/media/hospital.png": "/static/media/hospital.1602e7c8bfba6fbfd2de.png",
+    "static/media/parks.png": "/static/media/parks.f5766753f249dbb5514b.png",
+    "static/media/malls.png": "/static/media/malls.2c4b7feff1ef87d25608.png",
+    "static/media/mosque.png": "/static/media/mosque.e18a3e58e92c2d610f20.png",
+    "static/media/spritesheet.svg": "/static/media/spritesheet.a4e0eb7ad904a4858361.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.4b6d81ba.css.map": "/static/css/main.4b6d81ba.css.map",
+    "main.3269205d.js.map": "/static/js/main.3269205d.js.map",
+    "592.b5895e45.chunk.js.map": "/static/js/592.b5895e45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b6d81ba.css",
+    "static/js/main.3269205d.js"
+  ]
+}

@@ -1,0 +1,111 @@
+.top-bar {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 800px;
+    padding: 7px;
+    background-color: #f2f2f2;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .top-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-bar-search-container {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: bold;
+  }
+  
+  .top-bar-search-container input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin-right: 5px;
+    width: 240px;
+    margin-left: 10px;
+  }
+
+  .top-bar-filter-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: bold;
+    border: none;
+    position: relative; /* Add this line */
+    margin-right: 40px;
+    width: 80px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .top-bar-filter-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    position: absolute; /* Add this line */
+    right: 25px; /* Add this line, adjust the value to move the icon closer or further from the right edge */
+    top: 50%; /* Add this line */
+    transform: translateY(-50%); /* Add this line */
+    border-radius: 50%;
+    background-color: darkblue;
+    font-size: 20px;
+    border: none;
+  }
+
+  .top-bar-filter-container:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .top-bar-filter-icon {
+    color: white;
+    font-size: 20px;
+  }
+
+  .suggestions-container {
+    position: absolute;
+    top: 9%; /* Place it below the top-bar */
+    left: 24%;
+    width: 300px;
+    background-color: #fff; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    border-top: none; /* Remove top border to separate from top-bar */
+    border-radius: 0 0 5px 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.7); /* Shadow */
+    z-index: 1000;
+    font-size: 12px;
+  }
+  
+  .suggestions-container ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .suggestions-container ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestions-container ul li:hover {
+    background-color: rgb(255, 120, 0); /* Hover background color */
+  }
+
+  .hidden {
+    display: none;
+  }
+  

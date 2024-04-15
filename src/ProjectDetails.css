@@ -1,0 +1,49 @@
+.project-details-container {
+  margin: 0px;
+}
+
+.project-details-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 5px;
+   /* Add border bottom */
+}
+
+/* Alternating row colors */
+.table-row:nth-child(even) .table-cell {
+  background-color: #f9f9f9;
+}
+
+.table-row:nth-child(odd) .table-cell {
+  background-color: #ffffff;
+}
+
+.slick-prev, .slick-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 5px; /* Adjust the position from the left as needed */
+}
+
+.slick-next {
+  right: 5px; /* Adjust the position from the right as needed */
+}
+
+
+

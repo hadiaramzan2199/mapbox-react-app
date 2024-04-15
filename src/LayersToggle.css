@@ -1,0 +1,41 @@
+.layers-toggle {
+  position: absolute;
+  top: 120px;
+  left: 82%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  border-radius: 8px; /* Adjust border radius for rectangular shape */
+  background-color: #fff; /* Main container background color */
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: -10px;
+  border: 1px solid #ccc; /* Add border */
+}
+
+.layer-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1px; /* Adjust margin */
+  width: 80px;
+}
+
+.icon-wrapper img {
+  width: 25px; /* Adjust the size as needed */
+  height: 25px; /* Adjust the size as needed */
+}
+
+.icon-wrapper span {
+  font-size: 12px; /* Adjust the font size as needed */
+  
+}

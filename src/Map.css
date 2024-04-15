@@ -1,0 +1,65 @@
+#mapdiv {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.project-list-toggle {
+  position: absolute;
+  top: 100px; /* Adjust as needed to align vertically */
+  left: 10px; /* Adjust as needed to align horizontally */
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.project-list-toggle:hover {
+  background-color: #f0f0f0;
+}
+  
+.project-list-toggle span {
+  margin-left: 5px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 140px; /* Adjust as needed to align vertically */
+  left: 300px;
+  width: 300px; /* Adjust the width as needed */
+  height: 589px; /* Adjust the height as needed */
+  background-color: #fff; /* Adjust the background color as needed */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  z-index: 1000; /* Ensure the sidebar is above other map elements */
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+  font-size: 12px;
+  scrollbar-width: thin; /* "auto" or "thin" for modern browsers */
+  scrollbar-color: rgba(255, 120, 0, 0.4) #f1f1f1;
+}
+
+.sidebar.visible {
+  transform: translateX(0);
+}
+
+.project-list {
+  padding: 10px;
+  z-index: 1000;
+}
+
+.leaflet-draw-section {
+  margin-bottom: 60px;
+  margin-right: 1003px;
+}
